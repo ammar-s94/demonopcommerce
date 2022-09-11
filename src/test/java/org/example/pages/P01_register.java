@@ -9,9 +9,6 @@ import org.testng.asserts.SoftAssert;
 
 
 public class P01_register {
-
-
-
     public WebElement registerLink() {return Hooks.driver.findElement(By.cssSelector("a[class=\"ico-register\"]"));}
     public WebElement genderPOM() {return Hooks.driver.findElement(By.cssSelector("input[value=\"M\"]"));}
     public WebElement firstNamePOM()
@@ -76,8 +73,6 @@ public class P01_register {
     }
 
 
-
-
     public void softAssertSuccess(){
         String expectedResult = "Your registration completed";
         String actualResult = successTextPOM();
@@ -85,10 +80,8 @@ public class P01_register {
         String actualColor = successColorPOM();
         SoftAssert soft = new SoftAssert();
 
-        System.out.println("First assert");
         soft.assertTrue(actualResult.contains(expectedResult),"First Assert");
 
-        System.out.println("Second assert");
         soft.assertTrue(actualColor.contains(expectedColor),"Second Assert");
 //        System.out.println(actualColor);
 //        System.out.println(actualColor.contains(expectedColor));
