@@ -10,7 +10,7 @@ public class D02_loginStepDef {
     P02_login login = new P02_login();
 
     @Given("user go to login page")
-    public void goRegisterPage() {login.loginLink().click();}
+    public void goLoginPage() {login.loginLink().click();}
     @When("^user login with \"(.*)\" \"(.*)\" and \"(.*)\"$")
     public void emailAndPassword(String type,String email, String pass){login.enterCreds(email,pass);}
     @And ("user press on login button")

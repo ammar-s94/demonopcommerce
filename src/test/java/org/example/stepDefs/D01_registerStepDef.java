@@ -5,8 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.P01_register;
-import org.openqa.selenium.By;
-import org.testng.asserts.SoftAssert;
 
 public class D01_registerStepDef {
     P01_register register = new P01_register();
