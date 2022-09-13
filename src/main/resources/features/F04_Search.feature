@@ -1,4 +1,4 @@
-@smoke
+#@smoke
 Feature: F04_Search | users could search for products using product name or sku
   Scenario Outline: user could search using product name
     When user enter product name as <product> "name"
