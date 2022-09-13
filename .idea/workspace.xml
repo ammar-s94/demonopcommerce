@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="459ce982-d4d9-4535-8ef0-5a530960743d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D05_hoverCategoriesStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_currenies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currenies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/D04_searchStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefs/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ammar.tosson/IdeaProjects/MAVENSelenium",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ammar.tosson/IdeaProjects/MAVENSelenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ammar.tosson\IdeaProjects\demonopcommerce\src\main\resources" />

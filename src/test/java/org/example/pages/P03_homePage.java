@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
@@ -15,13 +14,19 @@ public class P03_homePage {
     public WebElement searchPOM(){
         return Hooks.driver.findElement(By.cssSelector("input[id=\"small-searchterms\"]"));
     }
+
     public WebElement searchBtnPOM(){
         return Hooks.driver.findElement(By.cssSelector("button[class=\"button-1 search-box-button\"]"));
     }
+    public WebElement selectedElementDisplayPOM(){
+        return Hooks.driver.findElement(By.xpath("//div[@class=\"page-title\"]/h1"));
+    }
 
     public List<WebElement> Elements(){
-        List <WebElement> elements = Hooks.driver.findElements(By.cssSelector("span[class=\"price actual-price\"]"));
-        return elements;
+        return Hooks.driver.findElements(By.cssSelector("span[class=\"price actual-price\"]"));
+    }
+    public List<WebElement> mainCateg(){
+        return Hooks.driver.findElements(By.xpath("//div[@class=\"header-menu\"]//ul[@class=\"top-menu notmobile\"]/li"));
     }
     public void assertSelection(){
         String symbol = "€";
