@@ -1,4 +1,4 @@
-#@smoke
+@smoke
 Feature: F06_homeSliders | users could select from sliders
   Scenario: user could click on first slider and navigate to correct url
     When user clicks on first slider

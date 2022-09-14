@@ -44,6 +44,17 @@ public class P03_homePage {
     public WebElement youTubePOM(){
         return Hooks.driver.findElement(By.xpath("//li[@class=\"youtube\"]"));
     }
+
+    public WebElement wishlistBtnPOM(){return Hooks.driver.findElement(By.cssSelector("button[onclick=\"return AjaxCart.addproducttocart_catalog(\\\"/addproducttocart/catalog/18/2/1\\\"),!1\"]"));}
+    public WebElement wishlistIconPOM(){return Hooks.driver.findElement(By.cssSelector("a[class=\"ico-wishlist\"]"));
+    }
+    public WebElement wishlistQtyPOM(){return Hooks.driver.findElement(By.xpath("//td[@class=\"quantity\"]/input"));
+    }
+
+    //td[@class="quantity"]/input
+    public String bkgndColorPOM(){return Hooks.driver.findElement(By.xpath("//div[@class=\"bar-notification success\"]")).getCssValue("background-color");}
+    public WebElement whishlistSuccPOM(){return Hooks.driver.findElement(By.xpath("//div[@class=\"bar-notification success\"]/p"));}
+
     public void navigateTabs(){
         tabs = new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.switchTo().window(tabs.get(1));
